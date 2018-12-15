@@ -1,6 +1,6 @@
 ## SpringMVC_ClassRegistration
 
-
+### ※주의사항 : 프로젝트의 jdbc.properties의 mysql 포트번호가 3307로 되어있습니다. 기존 포트설정을 하지 않은 사용자라면 3306으로 수정 후 사용하시길 바랍니다.
 1. 로그인하기  
 username과 password를 입력하면 로그인을 할 수 있습니다.  
 ![info1](./doc/login.JPG)  
