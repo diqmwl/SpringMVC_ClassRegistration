@@ -1,0 +1,68 @@
+@charset "EUC-KR";
+
+button {
+	padding:5px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+.formtable {
+	width: 400px;
+	border: 1px solid blue;
+	margin: 50px;
+	padding: 10px;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+}
+
+input[type=text] {
+	width: 300px;
+}
+
+input[type=submit] {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+input[type=submit]:hover {
+	background-color: green;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}
